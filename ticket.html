@@ -1,1 +1,99 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Raise Ticket | IT Helpdesk</title><link rel="stylesheet" href="css/style.css"><script src="js/app.js" defer></script></head><body><header class="header"><a class="brand" href="index.html">▣ <span><b>IT Helpdesk</b><small>Support Portal</small></span></a><button class="menu" aria-label="Toggle menu">☰</button><nav><a href="index.html">Home</a><a class="active" href="ticket.html">Raise Ticket</a><a href="services.html">Services</a><a href="knowledge.html">Knowledge Base</a><a href="contact.html">Contact</a></nav></header><main><section class="wrap"><div class="heading"><label>SUPPORT REQUEST</label><h1>Raise a Support Ticket</h1><p>Fill in the details below and our team can help.</p></div><div class="columns"><section class="panel"><h2>▣ Ticket details</h2><form id="ticketForm"><label>Name *<input name="name" required placeholder="Enter your name"></label><label>Email *<input name="email" type="email" required placeholder="Enter your email"></label><label>Issue Category *<select name="category" required><option value="">Select category</option><option>Password Reset</option><option>Network Issue</option><option>Software Request</option><option>Hardware Issue</option><option>Email Support</option><option>Other</option></select></label><label>Subject *<input name="subject" required placeholder="Enter a short subject"></label><label>Description *<textarea name="description" required rows="4" placeholder="Describe your issue..."></textarea></label><label>Priority<select name="priority"><option>Low</option><option selected>Medium</option><option>High</option><option>Urgent</option></select></label><button class="btn">Submit Ticket</button></form><p id="ticketResult" class="result" hidden></p></section><aside class="panel pale"><h2>💡 Common Issues</h2><h3>Password Reset</h3><p>Reset your system or email password.</p><h3>Network Issue</h3><p>Wi-Fi, VPN or network connectivity.</p><h3>Software Request</h3><p>Request approved software or access.</p><h3>Email Support</h3><p>Outlook or email-related issues.</p></aside></div></section></main><footer>▣ IT Helpdesk Support Portal <span>© <span id="year"></span> Support that keeps your work moving.</span></footer></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Raise Ticket | IT Helpdesk</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand" href="index.html"
+        >▣ <span><b>IT Helpdesk</b><small>Support Portal</small></span></a
+      ><button class="menu" aria-label="Toggle menu">☰</button>
+      <nav>
+        <a href="index.html">Home</a
+        ><a class="active" href="ticket.html">Raise Ticket</a
+        ><a href="services.html">Services</a
+        ><a href="knowledge.html">Knowledge Base</a
+        ><a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="wrap">
+        <div class="heading">
+          <label>SUPPORT REQUEST</label>
+          <h1>Raise a Support Ticket</h1>
+          <p>Fill in the details below and our team can help.</p>
+        </div>
+        <div class="columns">
+          <section class="panel">
+            <h2>▣ Ticket details</h2>
+            <form id="ticketForm">
+              <label
+                >Name *<input
+                  name="name"
+                  required
+                  placeholder="Enter your name" /></label
+              ><label
+                >Email *<input
+                  name="email"
+                  type="email"
+                  required
+                  placeholder="Enter your email" /></label
+              ><label
+                >Issue Category *<select name="category" required>
+                  <option value="">Select category</option>
+                  <option>Password Reset</option>
+                  <option>Network Issue</option>
+                  <option>Software Request</option>
+                  <option>Hardware Issue</option>
+                  <option>Email Support</option>
+                  <option>Other</option>
+                </select></label
+              ><label
+                >Subject *<input
+                  name="subject"
+                  required
+                  placeholder="Enter a short subject" /></label
+              ><label
+                >Description *<textarea
+                  name="description"
+                  required
+                  rows="4"
+                  placeholder="Describe your issue..."
+                ></textarea></label
+              ><label
+                >Priority<select name="priority">
+                  <option>Low</option>
+                  <option selected>Medium</option>
+                  <option>High</option>
+                  <option>Urgent</option>
+                </select></label
+              ><button class="btn">Submit Ticket</button>
+            </form>
+            <p id="ticketResult" class="result" hidden></p>
+          </section>
+          <aside class="panel pale">
+            <h2>💡 Common Issues</h2>
+            <h3>Password Reset</h3>
+            <p>Reset your system or email password.</p>
+            <h3>Network Issue</h3>
+            <p>Wi-Fi, VPN or network connectivity.</p>
+            <h3>Software Request</h3>
+            <p>Request approved software or access.</p>
+            <h3>Email Support</h3>
+            <p>Outlook or email-related issues.</p>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer>
+      ▣ IT Helpdesk Support Portal
+      <span
+        >© <span id="year"></span> Support that keeps your work moving.</span
+      >
+    </footer>
+  </body>
+</html>
